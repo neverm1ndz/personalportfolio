@@ -1054,6 +1054,7 @@ h6 {
   top: -7.5rem;
   left: 1.25rem;
   background: url("../img/reviews/decor_l.svg") no-repeat;
+  z-index: -1;
 }
 
 .reviews::after {
@@ -1394,6 +1395,7 @@ h6 {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  -webkit-appearance: none;
 }
 
 .form__input:focus {
