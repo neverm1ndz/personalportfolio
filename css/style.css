@@ -1214,6 +1214,7 @@ h6 {
   top: -3.125rem;
   left: 0rem;
   background: url("../img/contact/decor_l.svg") no-repeat;
+  z-index: -1;
 }
 
 .contact::after {
